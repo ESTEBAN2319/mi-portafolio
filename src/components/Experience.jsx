@@ -38,8 +38,16 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experiencia" className="relative py-16 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section
+      id="experiencia"
+      className="relative py-20 px-6 bg-gradient-to-b from-white/85 via-[#F8FBFF]/95 to-white/85"
+    >
+      {/* Línea divisoria inferior con degradado azul */}
+      <div className="pointer-events-none absolute bottom-0 inset-x-0 h-[1.5px] bg-gradient-to-r from-transparent via-[#2563EB]/40 to-transparent" />
+      {/* Halo de luz azul central */}
+      <div className="pointer-events-none absolute inset-x-0 top-1/2 -translate-y-1/2 mx-auto w-[600px] h-[300px] rounded-full bg-sky-300/15 blur-3xl" />
+
+      <div className="relative z-10 max-w-6xl mx-auto">
         {/* Cabecera */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
