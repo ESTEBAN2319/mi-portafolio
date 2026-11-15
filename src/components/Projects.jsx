@@ -11,16 +11,6 @@ import {
   export default function Projects() {
     const projects = [
       {
-        id: '01',
-        title: 'Operación Cuervo — Log Intrusion Analyzer',
-        description:
-          'Herramienta de análisis de registros y detección de intrusiones desarrollada en C++. Arquitectura modular con compilación automatizada mediante Makefile para auditoría de eventos de seguridad.',
-        stack: ['C++', 'Linux', 'Makefile', 'Cybersecurity', 'Git'],
-        githubUrl: 'https://github.com/ESTEBAN2319/Operacion-cuervo.git',
-        icon: ShieldAlert,
-        highlight: 'Seguridad & Sistemas',
-      },
-      {
         id: '02',
         title: 'ArqueoData — Motor de Persistencia & Consultas',
         description:
@@ -49,6 +39,15 @@ import {
         githubUrl: 'https://github.com/ESTEBAN2319/Northon23.git',
         icon: CreditCard,
         highlight: 'E-Commerce & Fintech',
+      },{
+        id: '01',
+        title: 'Operación Cuervo — Log Intrusion Analyzer',
+        description:
+          'Herramienta de análisis de registros y detección de intrusiones desarrollada en C++. Arquitectura modular con compilación automatizada mediante Makefile para auditoría de eventos de seguridad.',
+        stack: ['C++', 'Linux', 'Makefile', 'Cybersecurity', 'Git'],
+        githubUrl: 'https://github.com/ESTEBAN2319/Operacion-cuervo.git',
+        icon: ShieldAlert,
+        highlight: 'Seguridad & Sistemas',
       },
     ];
   
@@ -58,9 +57,6 @@ import {
           {/* Cabecera limpia sin filtros */}
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
             <div>
-              <span className="text-xs font-mono font-bold tracking-widest uppercase text-[#2563EB]">
-                // 03. PORTAFOLIO DE INGENIERÍA
-              </span>
               <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-[#0F172A] mt-1">
                 Proyectos Destacados
               </h2>
