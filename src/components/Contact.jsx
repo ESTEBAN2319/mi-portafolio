@@ -4,8 +4,8 @@ export default function Contact() {
   const channels = [
     {
       name: 'Correo',
-      detail: 'e2jaime@gmail.com',
-      href: 'mailto:e2jaime@gmail.com',
+      detail: 'e2jaimel@gmail.com',
+      href: 'mailto:e2jaimel@gmail.com',
       accent: 'group-hover:border-blue-400 group-hover:bg-[#2563EB]/20',
       iconBg: 'bg-[#2563EB] text-white',
       icon: <Mail size={20} />,
