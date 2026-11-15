@@ -2,9 +2,9 @@ import { ArrowUpRight, Download, ShieldCheck, MapPin } from 'lucide-react';
 
 export default function Hero() {
   const tags = [
+    'Cybersecurity',
     'Frontend',
     'Backend',
-    'Cybersecurity',
     'Artificial Intelligence',
   ];
 
@@ -22,12 +22,12 @@ export default function Hero() {
             <span>ESTEBAN JAIME • INGENIERO DE SISTEMAS</span>
           </div>
 
-          {/* Título y Subtítulo */}
+          {/* Título y Subtítulo con enfoque en Ciberseguridad */}
           <div className="space-y-2">
             <h1 className="text-4xl sm:text-5xl lg:text-[3.7rem] font-black tracking-tight text-[#0F172A] leading-[1.05]">
-              Full Stack{' '}
+              Full Stack &{' '}
               <span className="bg-gradient-to-r from-[#2563EB] via-[#1D4ED8] to-[#0284C7] bg-clip-text text-transparent">
-                Developer
+                Cybersecurity
               </span>
             </h1>
             <p className="text-xl sm:text-2xl font-bold text-slate-600 tracking-tight">
@@ -38,14 +38,15 @@ export default function Hero() {
           {/* Párrafo descriptivo en tarjeta translúcida suave */}
           <div className="bg-white/65 backdrop-blur-md border border-white/80 rounded-2xl p-5 shadow-sm">
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed border-l-[3px] border-[#2563EB] pl-4">
-              Desarrollo soluciones digitales combinando código, creatividad y pensamiento analítico. Me enfoco en construir aplicaciones funcionales y escalables, explorando tecnologías como{' '}
-              <strong className="text-[#0F172A]">Inteligencia Artificial</strong>,{' '}
-              <strong className="text-[#0F172A]">análisis de datos</strong> y{' '}
-              <strong className="text-[#0F172A]">Ciberseguridad</strong>.
+              Me apasiona diseñar y desarrollar soluciones tecnológicas que combinan funcionalidad, innovación y seguridad. Me enfoco en la creación de aplicaciones web y sistemas escalables, integrando conocimientos de{' '}
+              <strong className="text-[#0F172A]">desarrollo Full Stack</strong> y{' '}
+              <strong className="text-[#0F172A]">ciberseguridad</strong>. Además, exploro tecnologías como la{' '}
+              <strong className="text-[#0F172A]">Inteligencia Artificial</strong> y el{' '}
+              <strong className="text-[#0F172A]">análisis de datos</strong> para construir soluciones eficientes, modernas y orientadas a resolver problemas reales.
             </p>
           </div>
 
-          {/* Tus 5 píldoras de especialización */}
+          {/* Tus píldoras de especialización */}
           <div className="flex flex-wrap gap-2 pt-1">
             {tags.map((tag) => (
               <span
