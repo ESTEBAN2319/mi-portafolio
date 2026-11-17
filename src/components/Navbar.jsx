@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="flex items-center gap-1.5 sm:gap-2">
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/in/esteban-jaime-7aa425405/"
+            href="www.linkedin.com/in/esteban-jaime23"
             target="_blank"
             rel="noreferrer"
             title="LinkedIn"

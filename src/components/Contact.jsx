@@ -25,7 +25,7 @@ export default function Contact() {
     {
       name: 'LinkedIn',
       detail: 'Perfil profesional',
-      href: 'https://www.linkedin.com/in/esteban-jaime-7aa425405/',
+      href: 'www.linkedin.com/in/esteban-jaime23',
       accent: 'group-hover:border-sky-400/60',
       iconBg: 'bg-sky-500/15 text-sky-400',
       icon: (
